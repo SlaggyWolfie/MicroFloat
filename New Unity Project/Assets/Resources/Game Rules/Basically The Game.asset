@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67772f106439ce64786407d765e44f52, type: 3}
+  m_Name: Basically The Game
+  m_EditorClassIdentifier: 
+  _levelOrder:
+  - {fileID: 11400000, guid: c491e56b402a8964895e555361e12c19, type: 2}
+  - {fileID: 11400000, guid: 414e4f0173c46444c99593c125045b69, type: 2}
+  - {fileID: 11400000, guid: e3729e964ec343a418f98f9cf7e85faf, type: 2}

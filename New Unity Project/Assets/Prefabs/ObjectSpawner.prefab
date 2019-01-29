@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3092641146637895226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3092641146637895220}
+  - component: {fileID: 3092641146637895227}
+  - component: {fileID: 317698704534635833}
+  m_Layer: 0
+  m_Name: ObjectSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3092641146637895220
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3092641146637895226}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -12, z: -3.152074}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3092641146637895227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3092641146637895226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8a1ff8d60a669445af6aad422a10ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pickUps:
+  - {fileID: 8655240544653253735, guid: 10b956024ff702343a638e0c4023f1d9, type: 3}
+  _obstacles:
+  - {fileID: 12443374912744659, guid: 4f70d3fab51764b4daa78bbbbd42df31, type: 3}
+  - {fileID: 2370561560355752097, guid: 55fed1ecf8626e14bba682a997284a1b, type: 3}
+  - {fileID: 1309683707712092881, guid: 6c905ee4de52f084a98b4dca4f58d02d, type: 3}
+  _parent: {fileID: 0}
+  _PickupSpawnRange: 100
+  _PickupSeparation: 2
+  _PickupSpawnAttemts: 3
+  _PickupNumber: 30
+  _ObstacleRange: 50
+  _ObstacleSeparation: 20
+  _ObstacleSpawnAttemts: 5
+  _ObstacleNumber: 5
+--- !u!114 &317698704534635833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3092641146637895226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45fbd9982c3801045af8257abd9a2d7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _player: {fileID: 0}
+  _cameraBox: {fileID: 0}
+  smoothTime: 0.15
+  cameraOffset: {x: 5, y: 5, z: 0}
+  yMaxEnabled: 0
+  yMaxValue: 0
+  yMinEnabled: 0
+  yMinValue: 0
+  xMaxEnabled: 0
+  xMaxValue: 0
+  xMinEnabled: 0
+  xMinValue: 0
+  zMinEnabled: 0
+  zMinValue: 0
+  zMaxEnabled: 0
+  zMaxValue: 0
