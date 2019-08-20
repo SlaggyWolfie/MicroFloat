@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.10.00">
-    <object class="AudioFile" id="{44aa546e-2a57-4004-ad53-890c7167117e}">
+    <object class="AudioFile" id="{f67ff5cb-0951-4e15-8cd7-ab44c9abd172}">
         <property name="assetPath">
-            <value>breakbeat_funky_114bpm.wav</value>
+            <value>heartbeat_hard_114bpm.wav</value>
         </property>
         <property name="isStreaming">
             <value>true</value>

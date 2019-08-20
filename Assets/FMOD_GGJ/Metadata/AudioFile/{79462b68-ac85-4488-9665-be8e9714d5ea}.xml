@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.10.00">
-    <object class="AudioFile" id="{44aa546e-2a57-4004-ad53-890c7167117e}">
+    <object class="AudioFile" id="{79462b68-ac85-4488-9665-be8e9714d5ea}">
         <property name="assetPath">
-            <value>breakbeat_funky_114bpm.wav</value>
-        </property>
-        <property name="isStreaming">
-            <value>true</value>
+            <value>transition.wav</value>
         </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
@@ -14,7 +11,7 @@
             <value>2</value>
         </property>
         <property name="length">
-            <value>67.368435374149655</value>
+            <value>2.1052607709750566</value>
         </property>
         <relationship name="masterAssetFolder">
             <destination>{2476cba5-c34c-47e6-bf80-3dff352e2fc2}</destination>
